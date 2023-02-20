@@ -48,12 +48,12 @@
 
                 const x = await navigator.mediaDevices.getUserMedia({
                     video: true,
-                    video: {
-                        facingMode:
-                        {
-                            exact: "environment"
-                        }
-                    }
+                    // video: {
+                    //     facingMode:
+                    //     {
+                    //         exact: "environment"
+                    //     }
+                    // }
                 })
                 player.srcObject = x
                 
