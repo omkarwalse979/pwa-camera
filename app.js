@@ -9,14 +9,7 @@ import {
     // getMode
 } from "./constants.js"
 
-export let mode = "user"
-
-export const changeMode = (arg) =>
-{
-    mode = mode === "user" ? "environment" : "user"
-}
-
-import { closeCamera, openCamera} from "./camera.js"
+import { closeCamera, openCamera, changeMode} from "./camera.js"
 
 // let mode = "user"
 switchBtn.addEventListener("click", () => {

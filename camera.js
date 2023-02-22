@@ -5,10 +5,15 @@ import {
     player,
     restartBtn,
     startBtn,
-    switchBtn,
-    mode,
-    getMode
+    switchBtn
 } from "./constants.js"
+
+export let mode = "user"
+
+export const changeMode = (arg) =>
+{
+    mode = mode === "user" ? "environment" : "user"
+}
 
 export const closeCamera = () => {
     console.log(player.srcObject.getVideoTracks())
