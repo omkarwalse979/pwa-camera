@@ -8,7 +8,7 @@ import {
     switchBtn
 } from "./constants.js"
 
-export let mode = "user"
+let mode = "user"
 
 export const changeMode = (arg) =>
 {
