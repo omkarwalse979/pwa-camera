@@ -24,4 +24,4 @@ https://omkarwalse979.github.io/pwa-camera/
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/omkarwalse979)
+- [@omkarwalse979](https://www.github.com/omkarwalse979)

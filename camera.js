@@ -5,12 +5,12 @@ import {
     player,
     restartBtn,
     startBtn,
-    switchBtn
+    switchBtn,
 } from "./constants.js"
 
 let mode = "user"
 
-export const changeMode = (arg) =>
+export const changeMode = () =>
 {
     mode = mode === "user" ? "environment" : "user"
 }
